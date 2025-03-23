@@ -4,7 +4,8 @@
 
 ## Documents of project
 
-- One
+- [Mockups](/docs/mockups)
+  - [Login Register](/docs/mockups/Login%20-%20Register.pdf)
 - Two
 
 ## Authors
