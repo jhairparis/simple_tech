@@ -49,6 +49,41 @@
       ></div>
     </div>
     <!-- Spinner End -->
+     
+   <!-- Topbar Start -->
+   <div class="container-fluid bg-dark p-0 wow fadeIn" data-wow-delay="0.1s">
+    <div class="row gx-0 d-none d-lg-flex">
+      <div class="col-lg-7 px-5 text-start">
+        <div class="h-100 d-inline-flex align-items-center py-3 me-3">
+          <a class="text-white px-2" href="tel:+0123456789"
+            ><i class="fa fa-phone-alt txt-primary me-2"></i>+57 310 258
+            9632</a
+          >
+          <a class="text-white px-2" href="mailto:info@example.com"
+            ><i class="fa fa-envelope-open txt-primary me-2"></i
+            >info@simpletech.com</a
+          >
+        </div>
+      </div>
+      <div class="col-lg-5 px-5 text-end">
+        <div class="h-100 d-inline-flex align-items-center">
+          <a class="btn btn-sm-square btn-outline-body me-1" href="">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a class="btn btn-sm-square btn-outline-body me-1" href="">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a class="btn btn-sm-square btn-outline-body me-1" href="">
+            <i class="fa-brands fa-x-twitter"></i>
+          </a>
+          <a class="btn btn-sm-square btn-outline-body me-0" href="">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Topbar End --> 
 
     <!-- Navbar Start -->
     <nav
@@ -68,60 +103,185 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav ms-auto p-4 p-lg-0">
-          <a href="index.html" class="nav-item nav-link">Home</a>
-          <a href="about.html" class="nav-item nav-link">About Us</a>
           <div class="nav-item dropdown">
-            <a
-              href="#"
-              class="nav-link dropdown-toggle"
-              data-bs-toggle="dropdown"
-              >Services</a
-            >
-            <div class="dropdown-menu border-0 m-0">
-              <a href="service.html" class="dropdown-item active">Services</a>
-              <a href="service-details.html" class="dropdown-item"
-                >Service Details</a
-              >
-            </div>
+            <a href="index.html" class="nav-link">Home</a>
           </div>
           <div class="nav-item dropdown">
-            <a
-              href="#"
-              class="nav-link dropdown-toggle"
-              data-bs-toggle="dropdown"
-              >Projects</a
-            >
-            <div class="dropdown-menu border-0 m-0">
-              <a href="project.html" class="dropdown-item">Projects 01</a>
-              <a href="project-details.html" class="dropdown-item"
-                >Project Details</a
-              >
-            </div>
+            <a href="service.html" class="nav-link">Servicios</a>
           </div>
           <div class="nav-item dropdown">
-            <a
-              href="#"
-              class="nav-link dropdown-toggle"
-              data-bs-toggle="dropdown"
-              >Blogs</a
-            >
-            <div class="dropdown-menu border-0 m-0">
-              <a href="blog.html" class="dropdown-item">Blog</a>
-              <a href="blog-details.html" class="dropdown-item">Blog Details</a>
-            </div>
+            <a href="service-details.html" class="nav-link">Blog de Servicios</a>
+          </div>
+          <div class="nav-item dropdown">
+            <a href="service.html" class="nav-link">Nosotros</a>
           </div>
         </div>
         <a
           href="contact.html"
           class="btn btn-outline-body py-2 px-4"
           style="margin-left: 26px"
-          >Contact</a
+          >Contactenos</a
+        >
+        <a
+          href="login.html"
+          class="btn btn-inline-body py-2 px-4 ms-2"
+          >Login</a
         >
       </div>
     </nav>
     <!-- Navbar End -->
 
-    <h1>Hello World - Services</h1>
+    <!-- Page Header Start -->
+ <div
+ class="container-fluid page-header py-5 mb-5 wow fadeIn"
+ data-wow-delay="0.1s"
+>
+ <div class="container py-5">
+   <h1 class="display-1 text-white animated slideInDown">Servicios
+   </h1>
+   <nav aria-label="breadcrumb animated slideInDown">
+     <ol class="breadcrumb text-uppercase mb-0">
+       <li class="breadcrumb-item">
+         <a class="text-white" href="#">Home</a>
+       </li>
+       <li class="breadcrumb-item text-white" aria-current="page">
+         Servicios
+
+       </li>
+     </ol>
+   </nav>
+ </div>
+</div>
+<!-- Page Header End -->
+
+
+    <!-- Page Header Start -->
+    <section>
+      <div class="container-xxl py-5">
+        <div class="container">
+          <div
+            class="text-center mx-auto mb-5 wow fadeInUp"
+            data-wow-delay="0.1s"
+            style="max-width: 700px"
+          >
+            <div class="section-title">
+              <h6>Nuestros Servicios</h6>
+              <h2 class="mb-4">
+                Expertos en soporte técnico y mantenimientos de computadoras
+              </h2>
+            </div>
+          </div>
+          <div class="row g-4">
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div
+                class="service-item d-flex position-relative text-center h-100"
+              >
+                <img class="bg-img" src="img/Matenimiento.jpeg" alt="Services" />
+                <div class="service-text p-5">
+                  <i class="fas fa-tools mb-4 fa-4x"></i>
+                  <h3 class="mb-3">Mantenimineto preventivo y correctivo</h3>
+                  <p class="mb-4">
+                    Limpieza interna, cambio de pasta térmica y 
+                    optimización del sistema para un mejor rendimiento.
+                  </p>
+                  <a class="btn" href="service-details.html">
+                    <i class="fa fa-plus me-3"></i>Ver Mas
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+              <div
+                class="service-item d-flex position-relative text-center h-100"
+              >
+                <img class="bg-img" src="img/Reparacion.jpeg" alt="Services" />
+                <div class="service-text p-5">
+                  <i class="fa-solid fa-magnifying-glass mb-4 fa-4x"></i>
+                  <h3 class="mb-3">Reparación de computadoras</h3>
+                  <p class="mb-5">
+                    Diagnóstico y solución de problemas de hardware y software en laptos y PCs.
+                  </p>
+                  <a class="btn" href="service-details.html">
+                    <i class="fa fa-plus me-3"></i>Ver Mas
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+              <div
+                class="service-item d-flex position-relative text-center h-100"
+              >
+                <img class="bg-img" src="img/Instalacion.jpeg" alt="Services" />
+                <div class="service-text p-5">
+                  <i class="fa-solid fa-desktop mb-4 fa-4x"></i>
+                  <h3 class="mb-3">Instalación y configuracion de software</h3>
+                  <p class="mb-4">
+                    Instalación de sistemas operativos,drives y programas esenciales para un uso eficiente.
+                  </p>
+                  <a class="btn" href="service-details.html">
+                    <i class="fa fa-plus me-3"></i>Ver Mas
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div
+                class="service-item d-flex position-relative text-center h-100"
+              >
+                <img class="bg-img" src="img/Actualizacion.jpeg" alt="Services" />
+                <div class="service-text p-5">
+                  <i class="fa-solid fa-arrows-rotate mb-4 fa-4x"></i>
+                  <h3 class="mb-3">Actualizacion de hardware</h3>
+                  <p class="mb-4">
+                    Mejora del rendimiento de tu PC con instalación de memoria RAM, SSD, tarjetas gráficas y más.
+                  </p>
+                  <a class="btn" href="service-details.html">
+                    <i class="fa fa-plus me-3"></i>Ver Mas
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+              <div
+                class="service-item d-flex position-relative text-center h-100"
+              >
+                <img class="bg-img" src="img/Eliminacion.jpeg" alt="Services" />
+                <div class="service-text p-5">
+                  <i class="fa-solid fa-bug-slash mb-4 fa-4x"></i>
+                  <h3 class="mb-3">Eliminación de virus y malware</h3>
+                  <p class="mb-4">
+                    Análisis y limpieza profunda de virus, 
+                    spyware y malware que afectan el rendimiento del equipo.
+                  </p>
+                  <a class="btn" href="service-details.html">
+                    <i class="fa fa-plus me-3"></i>Ver Mas
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+              <div
+                class="service-item d-flex position-relative text-center h-100"
+              >
+                <img class="bg-img" src="img/Redes.jpeg" alt="Services" />
+                <div class="service-text p-5">
+                  <i class="fa-solid fa-tower-broadcast mb-4 fa-4x"></i>
+                  <h3 class="mb-3">Instalación y configuración de redes</h3>
+                  <p class="mb-4">
+                    Diseño, instalación y mantenimiento de redes cableadas e inalámbricas.
+                  </p>
+                  <a class="btn" href="service-details.html">
+                    <i class="fa fa-plus me-3"></i>Ver Mas
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Service End --> 
+     
 
     <!-- Footer Start -->
     <section>
@@ -132,38 +292,45 @@
         <div class="container py-5">
           <div class="row footer-content">
             <div class="col-lg-4 col-md-6">
-              <h3 class="text-light mb-4">About Us</h3>
+              <h3 class="text-light mb-4">Acerca de nosotros</h3>
               <p class="mb-2 text-light">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
+                Nos dedicamos a ofrecer soluciones integrales de mantenimiento y
+                soporte técnico para hardware y software, así como la
+                instalación de redes y software empresarial. Con años de
+                experiencia en el sector, nos enorgullece ser un socio confiable
+                para empresas que buscan optimizar su infraestructura
+                tecnológica y mejorar su eficiencia operativa.
               </p>
             </div>
             <div class="col-lg-2 col-md-6">
-              <h3 class="text-light mb-4">Services</h3>
-              <a class="btn btn-link" href="">Lorem ipsum</a>
-              <a class="btn btn-link" href="">Lorem ipsum</a>
-              <a class="btn btn-link" href="">Lorem ipsum</a>
-              <a class="btn btn-link" href="">Lorem ipsum</a>
-              <a class="btn btn-link" href="">Lorem ipsum</a>
+              <h3 class="text-light mb-4">Servicios</h3>
+              <a class="btn btn-link" href=""
+                >Mantenimientos Hardware y Software</a
+              >
+              <a class="btn btn-link" href="">Instalacion de Redes TI</a>
+              <a class="btn btn-link" href="">Instalacion de Software</a>
+              <a class="btn btn-link" href="">Diseño de projectos de TI</a>
             </div>
             <div class="col-lg-3 col-md-6">
-              <h3 class="text-light mb-4">Quick Links</h3>
-              <a class="btn btn-link" href="">About Us</a>
-              <a class="btn btn-link" href="">Contact Us</a>
-              <a class="btn btn-link" href="">Our Services</a>
-              <a class="btn btn-link" href="">Terms & Condition</a>
-              <a class="btn btn-link" href="">Support</a>
+              <h3 class="text-light mb-4">Accesos</h3>
+              <a class="btn btn-link" href="index.html">Acerca de Nosotros</a>
+              <a class="btn btn-link" href="contact.html">Contactanos</a>
+              <a class="btn btn-link" href="service.html">Nuestros Servicios</a>
+              <a class="btn btn-link" href="">Terminos y Condiciones</a>
+              <a class="btn btn-link" href="service-details.html">Blog de Servicios</a>
             </div>
             <div class="col-lg-3 col-md-6">
-              <h3 class="text-light mb-4">Address</h3>
+              <h3 class="text-light mb-4">Dirección</h3>
               <p class="mb-2 text-light">
-                <i class="fa fa-map-marker-alt txt-primary me-3"></i>Calle 10 # 26-82,
-                Bogotá, Colombia
+                <i class="fa fa-map-marker-alt txt-primary me-3"></i>Calle 10 #
+                26-82, Bogotá, Colombia
               </p>
               <p class="mb-2 text-light">
                 <i class="fa fa-phone-alt txt-primary me-3"></i>+57 310 258 9632
               </p>
               <p class="mb-2 text-light">
-                <i class="fa fa-envelope txt-primary me-3"></i>contacto@simpletech.com
+                <i class="fa fa-envelope txt-primary me-3"></i
+                >contacto@simpletech.com
               </p>
               <div class="d-flex pt-2">
                 <a class="btn btn-square btn-outline-body me-1" href=""
@@ -190,9 +357,7 @@
               >
                 &copy; <a href="#">2024 Simple Tech</a>, All Right Reserved.
               </div>
-              <div class="col-md-6 text-center text-light text-md-end">
-                
-              </div>
+              <div class="col-md-6 text-center text-light text-md-end"></div>
             </div>
           </div>
         </div>
